@@ -1,5 +1,6 @@
 import requests
 
+
 def getWeather(url):
     response = requests.get(url)
     response.raise_for_status()
